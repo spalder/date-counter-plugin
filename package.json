@@ -1,0 +1,18 @@
+{
+  "name": "date-counter-plugin",
+  "version": "0.1.0",
+  "description": "An Obsidian plugin that replaces %YYYY-MM-DD% with the number of days since that date (in edit mode).",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+"devDependencies": {
+  "rollup": "^3.0.0",
+  "rollup-plugin-typescript2": "^0.34.1",
+  "typescript": "^4.8.0",
+  "@codemirror/view": "^6.11.1",
+  "@codemirror/state": "^6.2.1"
+}
+}
+
